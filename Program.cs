@@ -1,6 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
-
+/*
+Author: ZuoXichen
+LICENSE: GPLv3
+Create Date: 2021-12-13
+Last Change: 2021-12-19
+*/
 
 using System.Diagnostics;
 using System.Timers;
@@ -101,3 +105,4 @@ double rightNumdouble = Convert.ToDouble(10);
 Console.WriteLine($"正确数目：{rightNum} 错误数目{10 - rightNum}，正答率{rightNumfloat / rightNumdouble}");
 Console.Write("按任意键以退出");
 Console.ReadLine();
+
